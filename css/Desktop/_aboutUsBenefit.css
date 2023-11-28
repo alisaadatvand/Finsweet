@@ -1,0 +1,93 @@
+.aboutUsBenefits {
+  width: 100%;
+  /* height: 880px; */
+  padding: 128px 160px 128px 160px;
+  display: flex;
+}
+.aboutUsBenefits .benefit {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  row-gap: 48px;
+}
+.aboutUsBenefits .benefit .benefitHeader {
+  width: 49.22%;
+}
+.aboutUsBenefits .benefit .benefitHeader h2 {
+  color: var(--Dark-blue);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+}
+.aboutUsBenefits .benefit .benefitCards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  column-gap: 32px;
+}
+.aboutUsBenefits .benefit .benefitCards .BenefitCard {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 50px 32.61px 48px 48.31px;
+  background: var(--Grey);
+}
+.aboutUsBenefits .benefit .benefitCards .BenefitCard .benefitCardSvg {
+  width: 100%;
+  margin-bottom: 26px;
+}
+.aboutUsBenefits .benefit .benefitCards .BenefitCard h6 {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  margin-bottom: 12px;
+}
+.aboutUsBenefits .benefit .benefitCards .BenefitCard p {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+.aboutUsBenefits .benefit .logoSection {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 140px;
+}
+.aboutUsBenefits .benefit .logoSection .logoNumber {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+}
+.aboutUsBenefits .benefit .logoSection .logoNumber h3 {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+}
+.aboutUsBenefits .benefit .logoSection .logoNumber p {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; 
+  opacity: 0.7;
+}
+.aboutUsBenefits .benefit .logoSection .benefitlogos {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  column-gap: 59px;
+}

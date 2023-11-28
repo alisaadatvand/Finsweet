@@ -1,0 +1,82 @@
+.OurTeam {
+  width: 100%;
+  /* height: 712; */
+  background: var(--Grey);
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 48px;
+  padding: 128px 160px 128px 160px;
+}
+.OurTeam .ourTeamHeader {
+  width: 100%;
+}
+.OurTeam .ourTeamHeader h2 {
+  color: var(--Dark-blue);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+}
+.OurTeam .ourTeamCards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  column-gap: 32px;
+}
+.OurTeam .ourTeamCards .ourTeamCard {
+  background-color: var(--White);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 48px 44px 32px 44px;
+}
+.OurTeam .ourTeamCards .ourTeamCard .ourTeamCardImg {
+  border-radius: 168px;
+  position: relative;
+}
+.OurTeam .ourTeamCards .ourTeamCard .ourTeamCardImg .ourTeamHover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  transition: 800ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.OurTeam .ourTeamCards .ourTeamCard .ourTeamCardImg:hover .ourTeamHover {
+  opacity: 1;
+  transform: translateY(0);
+}
+.OurTeam .ourTeamCards .ourTeamCard .ourTeamCardImg .ourTeamHover .ourTeamSocial{
+    width: 70%;
+    position: absolute;
+    top: 80%;
+    display: flex;
+    column-gap: 7px;
+    align-items: center;
+    justify-content: center;
+}
+.OurTeam .ourTeamCards .ourTeamCard h6 {
+  color: var(--b);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  margin-top: 30px;
+  margin-bottom: 2px;
+}
+.OurTeam .ourTeamCards .ourTeamCard p {
+  color: var(--b);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}

@@ -1,0 +1,157 @@
+footer {
+  width: 100%;
+  /* height: 489px; */
+  flex-shrink: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+footer .content {
+  width: 100%;
+  background: #1c1e53;
+  padding: 96px 382px 0 160px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+footer .content .contentFooter {
+  width: 100%;
+  /* height: 206px; */
+  flex-shrink: 0;
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 260px;
+}
+footer .content .contentFooter .leftContentFooter {
+  width: 36.95%;
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 23.6px;
+}
+footer .content .contentFooter .leftContentFooter p {
+  color: var(--White);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.8;
+}
+footer .content .contentFooter .letstalk {
+  width: 36.95%;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 14px;
+}
+footer .content .contentFooter .letstalk h2 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+}
+footer .content .contentFooter .letstalk p {
+  color: var(--Grey);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.8;
+}
+footer .content .contentFooter .letstalk .svgletstalk {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 26.67px;
+}
+footer .content .contactinfo {
+  width: 48.866%;
+  /* height: 95px; */
+  flex-shrink: 0;
+  background: var(--Yellow);
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 19px;
+  padding-left: 37px;
+  column-gap: 29px;
+}
+footer .content .contactinfo .emailContactinfo {
+  display: flex;
+  flex-flow: column nowrap;
+}
+footer .content .contactinfo .emailContactinfo span {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+footer .content .contactinfo .emailContactinfo p {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.8;
+}
+footer .content .contactinfo .callContactinfo {
+  display: flex;
+  flex-flow: column nowrap;
+}
+footer .content .contactinfo .callContactinfo span {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+footer .content .contactinfo .callContactinfo p {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.8;
+}
+
+footer .links {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 32px 160px 32px 160px;
+  column-gap: 567px;
+  background-color: var(--White);
+}
+footer .links .copyRights {
+  width: auto;
+}
+footer .links .copyRights span {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+footer .links .footerMenu {
+  width: auto;
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 32px;
+}
+footer .links .footerMenu span a {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; 
+  text-decoration: none;
+  text-transform: capitalize;
+}

@@ -1,0 +1,147 @@
+.featuresBigDiv {
+  width: 100%;
+  padding: 96px 160px 128px 160px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.featuresBigDiv .logoSection {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 140px;
+}
+.featuresBigDiv .logoSection .logoNumber {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+}
+.featuresBigDiv .logoSection .logoNumber h3 {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+}
+.featuresBigDiv .logoSection .logoNumber p {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+.featuresBigDiv .logoSection .benefitlogos {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  column-gap: 59px;
+}
+
+.featuresBigDiv .benefit {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  row-gap: 48px;
+  margin-top: 96px;
+  margin-bottom: 128px;
+}
+.featuresBigDiv .benefit .benefitHeader {
+  width: 49.22%;
+}
+.featuresBigDiv .benefit .benefitHeader h2 {
+  color: var(--Dark-blue);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+}
+.featuresBigDiv .benefit .benefitCards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  column-gap: 32px;
+}
+.featuresBigDiv .benefit .benefitCards .BenefitCard {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 50px 32.61px 48px 48.31px;
+  background: var(--Grey);
+}
+.featuresBigDiv .benefit .benefitCards .BenefitCard .benefitCardSvg {
+  width: 100%;
+  margin-bottom: 26px;
+}
+.featuresBigDiv .benefit .benefitCards .BenefitCard h6 {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  margin-bottom: 12px;
+}
+.featuresBigDiv .benefit .benefitCards .BenefitCard p {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+
+ .bestInClass {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 81px;
+}
+ .bestInClass .bestinClassContent {
+  width: 48.6%;
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 16px;
+}
+ .bestInClass .bestinClassContent span {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  opacity: 0.87;
+}
+ .bestInClass .bestinClassContent h3 {
+  color: #232536;
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+}
+ .bestInClass .bestinClassContent p {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; 
+}
+
+.FreeRevision{
+    width: 100%;
+    flex-shrink: 0;
+    background: var(--Grey);
+    padding: 128px 160px 128px 160px;
+}
+.bgcolorFeatures2{
+    background: rgba(252, 217, 128, 0.10) !important;
+}
+.bgcolorFeatures1{
+    background: var(--White) !important;
+}

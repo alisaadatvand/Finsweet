@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+    /* src: url(../fonts/Poppins-Black.ttf);
+    src: url(../fonts/Poppins-BlackItalic.ttf);
+    src: url(../fonts/Poppins-Bold.ttf);
+    src: url(../fonts/Poppins-BoldItalic.ttf);
+    src: url(../fonts/Poppins-ExtraBold.ttf);
+    src: url(../fonts/Poppins-ExtraBoldItalic.ttf);
+    src: url(../fonts/Poppins-ExtraLight.ttf);
+    src: url(../fonts/Poppins-ExtraLightItalic.ttf);
+    src: url(../fonts/Poppins-Italic.ttf);
+    src: url(../fonts/Poppins-Light.ttf);
+    src: url(../fonts/Poppins-LightItalic.ttf);
+    src: url(../fonts/Poppins-Medium.ttf);
+    src: url(../fonts/Poppins-MediumItalic.ttf);
+    src: url(../fonts/Poppins-SemiBold.ttf);
+    src: url(../fonts/Poppins-SemiBoldItalic.ttf);
+    src: url(../fonts/Poppins-Thin.ttf);
+    src: url(../fonts/Poppins-ThinItalic.ttf); */
+}
+@font-face{
+    font-family: Manrope;
+    src: url(../fonts/Manrope-VariableFont_wght.ttf);
+}
+.wrapper{
+    width: 100%;
+}
+:root{
+    --navbar:#1C1E53;
+    --White:#ffffff;
+    --gray:#BBBBCB;
+    --Grey:#F4F6FC;
+    --Dark-blue: #282938;
+    --Royal-Blue:#2405F2;
+    --Yellow:#fcd980;
+    --Accent: #EEF4FA;
+    --b: #1d2130;
+}

@@ -1,0 +1,71 @@
+.menu {
+  width: 100%;
+  height: 92px;
+  flex-shrink: 0;
+  background-color: var(--navbar);
+  display: flex;
+  flex-flow: row wrap;
+}
+.menu .logo {
+  width: 17.625%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+.menu .navbar {
+  width: 58%;
+  height: inherit;
+}
+.menu .navbar nav {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 32px;
+}
+.menu .navbar nav div {
+  width: fit-content;
+}
+.menu .navbar nav div a {
+  color: #bbbbcb;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.white {
+  color: white !important;
+}
+.menu .navbtn{
+  width: 24.375%;
+  height: inherit;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.menu .navbtn button {
+  width: 185px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  color: var(--White);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; 
+  background-color: transparent;
+  margin-left: 48px;
+  text-transform: capitalize;
+}
+.menu .navbtn button a{
+  text-decoration: none;
+}

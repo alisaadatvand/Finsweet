@@ -1,0 +1,2 @@
+@import "./setting.css";
+@import "./Desktop/desktop.css" only screen and (min-width:1000px);
