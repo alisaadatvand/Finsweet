@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/main.css">
     <title>Figma</title>
 </head>
@@ -13,6 +13,7 @@
     <div class="wrapper">
 
         <!-- menu -->
+
         <div class="menu">
             <div class="logo">
                 <svg xmlns="http://www.w3.org/2000/svg" width="122" height="25" viewBox="0 0 122 25" fill="none">
@@ -34,30 +35,43 @@
                     </defs>
                   </svg>
             </div>
+
+            <label for="menu">
+              <div class="second"></div>
+              <div class="first"></div>
+              <div class="third"></div>
+           </label>
+           <input type="radio" name="menu" id="menu">
+           <input type="radio" name="menu" id="closetest">
+
+
             <div class="navbar">
               <nav>
                 <div>
-                  <a href="/index.html" class="white">Home</a>
+                <label for="closetest">&times;</label>
                 </div>
                 <div>
-                  <a href="/aboutUs.html">About Us</a>
+                  <a href="./index.html" class="white">Home</a>
                 </div>
                 <div>
-                  <a href="/features.html">Feature</a>
+                  <a href="./aboutUs.html">About Us</a>
                 </div>
                 <div>
-                  <a href="pricing.html">Pricing</a>
+                  <a href="./features.html">Feature</a>
                 </div>
                 <div>
-                  <a href="#">FAQ</a>
+                  <a href="./pricing.html">Pricing</a>
                 </div>
                 <div>
-                  <a href="/blog.html">Blog</a>
+                  <a href="./privacy.html">FAQ</a>
+                </div>
+                <div>
+                  <a href="./blog.html">Blog</a>
                 </div>
               </nav>
             </div>
             <div class="navbtn">
-              <button><a href="/contactUs.html"  class="white">Contact us</a></button>
+              <button><a href="./contactUs.html"  class="white">Contact us</a></button>
 
             </div>
         </div>
@@ -72,8 +86,8 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
             
             <div>
-              <a href="/work.html"><button>View our work</button></a>
-              <span><a href="/pricing.html">View Pricing</span></a>
+              <a href="./work.html"><button>View our work</button></a>
+              <span><a href="./pricing.html">View Pricing</span></a>
               <svg xmlns="http://www.w3.org/2000/svg" width="25" height="12" viewBox="0 0 25 12" fill="none">
                 <path d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z" fill="#F4F6FC"/>
               </svg>
@@ -158,11 +172,12 @@
 
             <div class="cardOurWork">
               <div class="card1">
-                <img src="/images/ourWork/Card1.png" alt="card">
+                <img src="./images/ourWork/Card1.png" alt="card">
               </div>
               <div class="card2">
+
                 <div class="subCard1">
-                  <img src="/images/ourWork/Card2.png" alt="card">
+                  <img src="./images/ourWork/Card2.png" alt="card">
                 <div class="cardHover">
                   <div class="object1">
                       <p>Unisaas Website<br> 
@@ -176,8 +191,21 @@
                   </div>
                   </div>
                 </div>
+
                 <div class="subCard2">
-                  <img src="/images/ourWork/Card3.png" alt="card">
+                  <img src="./images/ourWork/Card3.png" alt="card">
+                  <div class="cardHover">
+                    <div class="object1">
+                        <p>Unisaas Website<br> 
+                          Design</p>
+                    </div>
+                    <div class="object2">
+                        <span><a href="#">View portfolio</span></a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="12" viewBox="0 0 25 12" fill="none">
+                          <path d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z" fill="#FCD980"/>
+                        </svg>
+                    </div>
+                    </div>
                 </div>
                 </div>
               </div>
@@ -294,7 +322,7 @@
                     </div>
                     <div class="profile">
                       <div class="img">
-                        <img src="/images/testimonials/profile.png" alt="profile">
+                        <img src="./images/testimonials/profile.png" alt="profile">
                       </div>
                       <div class="name">
                         <p>Jenny Wilson</p>
@@ -321,7 +349,7 @@
                   </div>
                   <div class="profile">
                     <div class="img">
-                      <img src="/images/testimonials/profile.png" alt="profile">
+                      <img src="./images/testimonials/profile.png" alt="profile">
                     </div>
                     <div class="name">
                       <p>Jenny Wilson</p>
@@ -348,7 +376,7 @@
                 </div>
                 <div class="profile">
                   <div class="img">
-                    <img src="/images/testimonials/profile.png" alt="profile">
+                    <img src="./images/testimonials/profile.png" alt="profile">
                   </div>
                   <div class="name">
                     <p>Jenny Wilson</p>
@@ -375,7 +403,7 @@
               </div>
               <div class="profile">
                 <div class="img">
-                  <img src="/images/testimonials/profile.png" alt="profile">
+                  <img src="./images/testimonials/profile.png" alt="profile">
                 </div>
                 <div class="name">
                   <p>Jenny Wilson</p>
@@ -510,7 +538,7 @@
 
           <div class="contactForm">
             <div class="imgContactForm">
-            <img src="/images/contactForm/contactForm.png" alt="contactForm">
+            <img src="./images/contactForm/contactForm.png" alt="contactForm">
               <div class="bg">
                 <div class="headingContactForm">
                   <h1>Building stellar websites for early startups</h1>
@@ -549,7 +577,7 @@
           <div class="blogCards">
 
             <div class="blogCardItem">
-              <img src="/images/blog/card1.png" alt="blogCard">
+              <img src="./images/blog/card1.png" alt="blogCard">
               <span class="dateBlog">19 Jan 2022</span>
               <h6>How one Webflow user grew his single person consultancy from $0-100K in 14 months</h6>
               <p>See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
@@ -562,7 +590,7 @@
             </div>
 
             <div class="blogCardItem">
-              <img src="/images/blog/card2.png" alt="blogCard">
+              <img src="./images/blog/card2.png" alt="blogCard">
               <span class="dateBlog">19 Jan 2022</span>
               <h6>How one Webflow user grew his single person consultancy from $0-100K in 14 months</h6>
               <p>See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
@@ -575,7 +603,7 @@
             </div>
 
             <div class="blogCardItem">
-              <img src="/images/blog/card3.png" alt="blogCard">
+              <img src="./images/blog/card3.png" alt="blogCard">
               <span class="dateBlog">19 Jan 2022</span>
               <h6>How one Webflow user grew his single person consultancy from $0-100K in 14 months</h6>
               <p>See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
@@ -688,12 +716,12 @@
               <span>Copyright 2022, Finsweet.com</span>
             </div>
             <div class="footerMenu">
-              <span><a href="/index.html">Home</a></span>
-              <span><a href="/aboutUs.html">About Us</a></span>
-              <span><a href="/features.html">Features</a></span>
-              <span><a href="/pricing.html">Pricing</a></span>
-              <span><a href="#">FAQ</a></span>
-              <span><a href="/blog.html">Blog</a></span>
+              <span><a href="./index.html">Home</a></span>
+              <span><a href="./aboutUs.html">About Us</a></span>
+              <span><a href="./features.html">Features</a></span>
+              <span><a href="./pricing.html">Pricing</a></span>
+              <span><a href="./privacy.html">FAQ</a></span>
+              <span><a href="./blog.html">Blog</a></span>
             </div>
           </div>
         </footer>
@@ -702,7 +730,7 @@
   </div>
     <!-- end Wrapper-->
 
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
       var swiper = new Swiper(".mySwiper", {

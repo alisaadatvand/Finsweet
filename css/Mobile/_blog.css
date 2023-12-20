@@ -1,0 +1,83 @@
+.bigDiv .blog {
+  width: 80%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  row-gap: 64px;
+}
+.bigDiv .blog .blogHeader {
+  width: 100%;
+  text-align: center;
+}
+.bigDiv .blog .blogHeader h2 {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+}
+.bigDiv .blog .blogCards {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 50px;
+}
+.bigDiv .blog .blogCards .blogCardItem {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.bigDiv .blog .blogCards .blogCardItem  .dateBlog{
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.7;
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+.bigDiv .blog .blogCards .blogCardItem h6 {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+.bigDiv .blog .blogCards .blogCardItem p {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+  margin-bottom: 32px;
+}
+.bigDiv .blog .blogCards .blogCardItem .blogReadMore {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap: 12px;
+}
+.bigDiv .blog .blogCards .blogCardItem .blogReadMore .morespanblog a {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; 
+  text-decoration: none;
+}
+

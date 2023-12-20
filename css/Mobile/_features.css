@@ -1,0 +1,79 @@
+.features {
+  width: 100%;
+  padding: 128px 80px ;
+  flex-shrink: 0;
+  background: var(--Grey);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.features .featuresTitle {
+  width: 100%;
+  margin-bottom: 12px;
+}
+.features .featuresTitle p {
+  color: var(--Dark-blue);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+.features .featuresHead {
+  width: 100%;
+  margin-bottom: 47px;
+}
+.features .featuresHead h2 {
+  color: var(--Dark-blue);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+}
+.features .featuresCards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  grid-template-rows: repeat(6, auto);
+  row-gap: 24px;
+  column-gap: 15px;
+}
+.subFeatureCard {
+  flex-shrink: 0;
+  background: #fff;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px 20px;
+}
+.features .featuresCards div .icon {
+  width: 100%;
+  margin-bottom: 22.08px;
+}
+.features .featuresCards div .tit {
+  margin-bottom: 12px;
+}
+.features .featuresCards div .tit h6 {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.features .featuresCards div .para p {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}

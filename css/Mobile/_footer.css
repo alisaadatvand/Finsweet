@@ -1,0 +1,170 @@
+footer {
+  width: 100%;
+  flex-shrink: 0;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+footer .content {
+  width: 100%;
+  background: #1c1e53;
+  padding-top: 30px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+}
+footer .content .contentFooter {
+  width: 100%;
+  flex-shrink: 0;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 26px;
+  align-items: center;
+  justify-content: center;
+}
+footer .content .contentFooter .leftContentFooter {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+footer .content .contentFooter .leftContentFooter p {
+  width: 50%;
+  text-align: center;
+  color: var(--White);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.8;
+  margin-top: 20px;
+}
+footer .content .contentFooter .letstalk {
+  height: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 14px;
+  align-items: center;
+  justify-content: center;
+}
+footer .content .contentFooter .letstalk h2 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+}
+footer .content .contentFooter .letstalk p {
+  width: 50%;
+  text-align: center;
+  color: var(--Grey);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.8;
+}
+footer .content .contentFooter .letstalk .svgletstalk {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 26.67px;
+  justify-content: center;
+  align-items: center;
+}
+footer .content .contactinfo {
+  flex-shrink: 0;
+  background: var(--Yellow);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  column-gap: 29px;
+}
+footer .content .contactinfo .emailContactinfo {
+  display: flex;
+  flex-flow: column wrap;
+}
+footer .content .contactinfo .emailContactinfo span {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+footer .content .contactinfo .emailContactinfo p {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.8;
+}
+footer .content .contactinfo .callContactinfo {
+  display: flex;
+  flex-flow: column nowrap;
+}
+footer .content .contactinfo .callContactinfo span {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+footer .content .contactinfo .callContactinfo p {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.8;
+}
+footer .links {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  column-gap: 567px;
+  background-color: var(--White);
+  align-items: center;
+  justify-content: center;
+  padding: 25px 0px;
+}
+footer .links .copyRights {
+  width: auto;
+  margin-bottom: 10px;
+}
+footer .links .copyRights span {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+footer .links .footerMenu {
+  width: auto;
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 32px;
+}
+footer .links .footerMenu span a {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; 
+  text-decoration: none;
+  text-transform: capitalize;
+}

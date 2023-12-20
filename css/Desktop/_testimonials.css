@@ -3,19 +3,22 @@
   flex-shrink: 0;
   background: #f9fafd;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  column-gap: 110px;
+  /* column-gap: 110px; */
+  column-gap: calc(100% / calc(1280 / 110));
+  padding: 57.5px 0;
 }
 .testimonials .heading {
   width: 20.4375%;
   flex-shrink: 0;
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  row-gap: 16px;
+  /* row-gap: 16px; */
+  row-gap: calc(100% / calc(192 / 16));
 }
 .testimonials .heading div {
   width: 100%;
@@ -47,11 +50,11 @@
 }
 .swiper-slide {
   width: 100%;
-  height: 506px;
+  /* height: 506px; */
   flex-shrink: 0;
   background: #f9fafd;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
   column-gap: 110px;
@@ -62,7 +65,7 @@
   width: 100%;
   flex-shrink: 0;
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: column wrap;
   row-gap: 48px;
 }
 .testimonials .content .contentHeading{
@@ -78,7 +81,7 @@
 }
 .testimonials .content .profile {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   align-items: center;
   column-gap: 9.63px;
 }

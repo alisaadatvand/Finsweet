@@ -1,0 +1,189 @@
+.aboutUs {
+  width: 100%;
+  padding: 128px 0 128px 0;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 128px;
+}
+.aboutUs .aboutHero {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 80px;
+}
+
+.aboutUs .aboutHero .aboutHeroContent {
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  row-gap: 15px;
+}
+.aboutUs .aboutHero .aboutHeroContent span {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+.aboutUs .aboutHero .aboutHeroContent h1 {
+  width: 70%;
+  text-align: center;
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 74px;
+}
+.aboutUs .aboutHero .aboutHeroContent p {
+  width: 60%;
+  text-align: center;
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+.aboutUs .aboutHero .aboutHeroimg{
+  width: 100%;
+}
+.aboutUs .aboutHero .aboutHeroimg img{
+  width: 100%;
+}
+/* who WeAre ========================================== */
+
+.aboutUs .whoWeAre {
+  width: 80%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.aboutUs .whoWeAre .whoWeAreContent {
+  width: 100%;
+  padding: 80px ;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background: #f4f5f5;
+}
+.aboutUs .whoWeAre .whoWeAreContent .test {
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 61px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.aboutUs .whoWeAre .whoWeAreContent .test .goal {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.aboutUs .whoWeAre .whoWeAreContent span {
+  color: var(--Dark-blue);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+.aboutUs .whoWeAre .whoWeAreContent .test .goal h3 {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+.aboutUs .whoWeAre .whoWeAreContent .test .goal p {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+.aboutUs .whoWeAre .whoWeAreimg{
+  width: 100%;
+}
+.aboutUs .whoWeAre .whoWeAreimg img{
+  width: 100%;
+}
+/* proccess ========================================== */
+
+.aboutUs .proccess {
+  width: 80%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  row-gap: 48px;
+}
+.aboutUs .proccess .proccessTitle {
+  width: 60%;
+  text-align: center;
+}
+.aboutUs .proccess .proccessTitle h2 {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+}
+.aboutUs .proccess .proccessItems {
+  width: 100%;
+  display: grid;
+  grid-template-areas: repeat(4, auto);
+  row-gap: 56px;
+}
+.aboutUs .proccess .proccessItems .proccessitem {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.aboutUs .proccess .proccessItems .proccessitem .circle{
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap: 24px;
+}
+.aboutUs .proccess .proccessItems .proccessitem h6 {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+.aboutUs .proccess .proccessItems .proccessitem p {
+  width: 70%;
+  text-align: center;
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}

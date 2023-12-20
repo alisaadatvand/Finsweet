@@ -101,6 +101,9 @@
   justify-content: center;
   align-items: center;
 }
+.WorkCardPack .workCards .workCard .workCardImg img{
+  width: 100%;
+}
 .WorkCardPack .workCards .workCard h3 {
   color: var(--Dark-blue);
   font-family: Poppins;
@@ -214,6 +217,9 @@
   flex-shrink: 0;
   border-radius: 41px;
   background: #fcd980;
+}
+.CTA button a{
+  text-decoration: none;
   color: #1b1c2b;
   font-family: Manrope;
   font-size: 18px;

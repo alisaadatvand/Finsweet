@@ -1,0 +1,98 @@
+.aboutUsOurMission {
+  width: 100%;
+  flex-shrink: 0;
+  background: var(--Accent);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  row-gap: 96px;
+  padding: 60px 60px;
+}
+.aboutUsOurMission .mission {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 40px;
+}
+.aboutUsOurMission .mission .missionContent {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 16px;
+}
+.aboutUsOurMission .mission .missionContent span {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+.aboutUsOurMission .mission .missionContent h3 {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+}
+.aboutUsOurMission .mission .missionContent p {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+.aboutUsOurMission .mission .missionImg img {
+  width: 100%;
+}
+
+/* ------------- vison ---------------------- */
+.aboutUsOurMission .vision {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 42px;
+}
+.aboutUsOurMission .vision .visionImg img {
+  width: 100%;
+}
+.aboutUsOurMission .vision .visionContent {
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 16px;
+}
+.aboutUsOurMission .vision .visionContent span {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+.aboutUsOurMission .vision .visionContent h3 {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+}
+.aboutUsOurMission .vision .visionContent p {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; 
+  opacity: 0.7;
+}

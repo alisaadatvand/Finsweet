@@ -4,10 +4,10 @@
   flex-shrink: 0;
   background-color: var(--navbar);
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  column-gap: 60px;
+  column-gap: calc(100% / calc(1280/60));
   padding: 125px 160px 125px 160px;
 }
 .Homehero .Herotext{

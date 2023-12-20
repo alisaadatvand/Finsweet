@@ -1,0 +1,233 @@
+.workHero {
+  width: 100%;
+  padding: 96px 100px;
+  flex-shrink: 0;
+  background: var(--Grey);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.workHero span {
+  color: var(--Dark-blue);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.7;
+}
+.workHero h2 {
+  color: var(--Dark-blue);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  margin-top: 4px;
+  margin-bottom: 24px;
+}
+.workHero p {
+  color: var(--Dark-blue);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.7;
+  margin-bottom: 32px;
+}
+.workHero .workHeroSocials {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap: 27.84px;
+}
+.WorkCardPack {
+  width: 100%;
+  padding: 96px 0px 128px 0px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  row-gap: 48px;
+}
+.WorkCardPack .workCategory {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 32px;
+  align-items: center;
+  justify-content: center;
+}
+.WorkCardPack .workCategory span a {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  opacity: 0.7;
+  text-decoration: none;
+}
+.activeWorkCategory {
+  color: var(--Royal-Blue) !important;
+  opacity: 1 !important;
+}
+
+
+.WorkCardPack .workCards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  grid-template-rows: repeat(6, auto);
+  row-gap: 80px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.WorkCardPack .workCards .workCard {
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 10px;
+  padding: 0px 150px;
+}
+.WorkCardPack .workCards .workCard .workCardImg {
+  width: 100%;
+  background: linear-gradient(131deg, #f4ede1 16.74%, #98b1c6 103.17%);
+  display: flex;
+  padding: 30px ;
+  justify-content: center;
+  align-items: center;
+}
+.WorkCardPack .workCards .workCard .workCardImg img{
+  width: 100%;
+}
+.WorkCardPack .workCards .workCard h3 {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+.WorkCardPack .workCards .workCard p {
+  color: var(--Dark-blue);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+  margin-bottom: 24px;
+}
+.WorkCardPack .workCards .workCard .viewPortfolio {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap: 16px;
+}
+.WorkCardPack .workCards .workCard .viewPortfolio span a {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  text-decoration: none;
+}
+
+.template2 {
+  background: linear-gradient(
+    131deg,
+    #ffd3af 16.74%,
+    #4f56ff 103.17%
+  ) !important;
+}
+.template3 {
+  background: linear-gradient(
+    131deg,
+    #eebca7 16.74%,
+    #c8c8c8 103.17%
+  ) !important;
+}
+.template4 {
+  background: linear-gradient(
+    131deg,
+    #c2e7f2 16.74%,
+    #98a4ff 103.17%
+  ) !important;
+}
+.template5 {
+  background: linear-gradient(
+    131deg,
+    #c5bcff 16.74%,
+    #9bf6d5 103.17%
+  ) !important;
+}
+.template6 {
+  background: linear-gradient(
+    131deg,
+    #d2d6fd 16.74%,
+    #d6acea 103.17%
+  ) !important;
+}
+.CTAmain{
+    width: 100%;
+    padding-bottom: 128px;
+}
+.CTA {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.CTA h2 {
+  color: var(--Dark-blue);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+}
+.CTA p {
+  color: var(--Dark-blue);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.7;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.CTA button {
+  display: flex;
+  padding: 16px 67px 16px 66px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 41px;
+  background: #fcd980;
+}
+.CTA button a{
+  text-decoration: none;
+  color: #1b1c2b;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}

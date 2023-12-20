@@ -1,0 +1,129 @@
+
+label[for=menu]{
+  height: 35px;
+  width: 35px;
+  display: inline-block;
+  background-color: var(--navbar);
+  position: relative;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+.menu>input{
+  display: none;
+}
+label[for=menu]>div{
+  width: 80%;
+  height: 3px;
+  background-color: white;
+  position: absolute;
+  left: calc(50% - 80% / 2);
+}
+.first{
+  top: calc(50% - 3PX / 2);
+}
+.second{
+  top: calc(50% - 3PX / 2 + 5px);
+}
+.third{
+  top: calc(50% - 3PX / 2 - 5px);
+}
+#menu , #closetest{
+  display: none;
+}
+.menu .navbar {
+  height: inherit;
+  display: none;
+}
+
+#menu:checked ~ div.navbar{
+  display: block;
+} 
+
+label[for=closetest]{
+  background-color: rgb(160, 10, 40);
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  height: 35px;
+  width: 35px;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+}
+#closetest:checked ~ div.navbar{
+  display: none;
+}
+
+
+
+
+.menu {
+  width: 100%;
+  flex-shrink: 0;
+  background-color: var(--navbar);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  row-gap: 20px;
+}
+.menu .logo {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu .navbar nav {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  line-height: 35px;
+}
+.menu .navbar nav div {
+  width: fit-content;
+}
+.menu .navbar nav div a {
+  color: #bbbbcb;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.white {
+  color: white !important;
+}
+.menu .navbtn{
+  height: inherit;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.menu .navbtn button {
+  flex-shrink: 0;
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  color: var(--White);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; 
+  background-color: transparent;
+  text-transform: capitalize;
+  padding: 10px 30px;
+}
+.menu .navbtn button a{
+  text-decoration: none;
+}

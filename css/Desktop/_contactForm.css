@@ -2,12 +2,12 @@
   width: 80%;
   flex-shrink: 0;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   align-items: center;
 }
 .bigDiv .contactForm .imgContactForm {
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: column wrap;
   justify-content: flex-start;
   align-items: center;
   position: relative;
@@ -58,6 +58,7 @@
 .bigDiv .contactForm .formContactForm .objects {
   display: flex;
   flex-flow: column nowrap;
+
 }
 .bigDiv .contactForm .formContactForm .objects h5 {
   color: #fff;
@@ -88,8 +89,8 @@
 input[type="email"],
 input[type="url"] {
   width: 100%;
-  height: 64px;
   flex-shrink: 0;
+  padding: 18.6px;
   outline: unset;
   border: unset;
   margin-bottom: 16px;
@@ -119,8 +120,6 @@ input[type="url"]::placeholder {
 .bigDiv .contactForm .formContactForm .objects .input button {
   width: 100%;
   display: flex;
-  width: 432px;
-  height: 64px;
   padding: 15px 51px;
   justify-content: center;
   align-items: center;

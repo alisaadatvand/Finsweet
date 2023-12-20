@@ -1,0 +1,107 @@
+.contactUsBigDiv {
+  width: 100%;
+  padding: 128px 60px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contactUsBigDiv .ContactHeader {
+  width: 100%;
+  text-align: center;
+}
+.contactUsBigDiv .ContactHeader h2 {
+  color: var(--Dark-blue);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+}
+.contactUsBigDiv .contactParagraph {
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 64px;
+}
+.contactUsBigDiv .contactParagraph p {
+  color: var(--Dark-blue);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+.contactUsBigDiv .contactFormMain {
+  width: 100%;
+  padding: 56px 20px;
+  border-radius: 12px;
+  background: var(--Grey);
+  align-items: center;
+  text-align: center;
+}
+.contactUsBigDiv .contactFormMain .contactUsInputs {
+  width: 100%;
+}
+.contactUsBigDiv .contactFormMain .contactUsInputs form {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.contactUsBigDiv .contactFormMain .contactUsInputs form div {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactUsBigDiv .contactFormMain .contactUsInputs form input,
+select {
+  width: 100%;
+  height: 64px;
+  display: inline-flex;
+  padding: 18px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background-color: transparent !important;
+  margin-bottom: 24px;
+}
+.inputMessageWidth {
+  width: 100% !important;
+  height: 138px !important;
+  align-items: left !important;
+}
+.contactUsBigDiv .contactFormMain .contactUsInputs form input::placeholder,
+option {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.contactUsBigDiv .contactFormMain .contactUsInputs form button {
+  display: flex;
+  width: 100%;
+  padding: 15px 51px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 41px;
+  background: var(--Dark-blue);
+  color: var(--Grey);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; 
+
+}

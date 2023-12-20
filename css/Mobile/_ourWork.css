@@ -1,0 +1,132 @@
+.ourWorkMain {
+  width: 100%;
+  flex-shrink: 0;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--White);
+  padding: 128px 0 128px 0;
+}
+.ourWorkMain .ourWork {
+  flex-shrink: 0;
+}
+.ourWorkMain .ourWork .header {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  row-gap: 35px;
+  margin-bottom: 64px;
+}
+.ourWorkMain .ourWork .header h2 {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+}
+.ourWorkMain .ourWork .header div {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 16px;
+}
+.ourWorkMain .ourWork .header div span a {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.ourWorkMain .ourWork .cardOurWork {
+  width: 100%;
+  display: flex;
+  flex-flow:column nowrap;
+  row-gap: 32px;
+}
+.ourWorkMain .ourWork .cardOurWork .card1{
+  display: none;
+}
+.ourWorkMain .ourWork .cardOurWork .card2 {
+  flex-shrink: 0;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 32px;
+}
+
+.ourWorkMain .ourWork .cardOurWork .card2 .subCard1 {
+  position: relative;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.ourWorkMain .ourWork .cardOurWork .card2 .subCard2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.cardHover {
+  width: 100%;
+  flex-shrink: 0;
+  position: absolute;
+  background: linear-gradient(
+    329deg,
+    #1c1e53 -10.96%,
+    rgba(28, 30, 83, 0.42) 103.96%
+  );
+  right: 100%;
+  top: 0;
+  opacity: 0;
+  transition: 1000ms;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 129px 36px 39px 56px;
+}
+.ourWorkMain .ourWork .cardOurWork .card2 .subCard1:hover .cardHover {
+  opacity: 1;
+  transform: translateX(100%);
+}
+.ourWorkMain .ourWork .cardOurWork .card2 .subCard2:hover .cardHover {
+  opacity: 1;
+  transform: translateX(100%);
+}
+.cardHover.object1 {
+  width: 77.28%;
+  justify-content: left;
+}
+.cardHover .object2 {
+  width: 77.28%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 16px;
+}
+.cardHover .object1 p {
+  color: var(--White);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.cardHover .object2 span a {
+  color: var(--Yellow);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  text-decoration: none;
+}

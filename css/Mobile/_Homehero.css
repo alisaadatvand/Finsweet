@@ -1,0 +1,74 @@
+.Homehero {
+  width: 100%;
+  flex-shrink: 0;
+  background-color: var(--navbar);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 60px;
+  padding: 25px 60px 125px 60px;
+}
+.Homehero .Herotext{
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+}
+.Homehero .Herotext div{
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.Homehero .Herotext  h1{
+  color: var(--White);
+  font-family: Poppins;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 74px;
+  margin-bottom: 24px; 
+}
+.Homehero .Herotext  p{
+  color: var(--White, #FFF);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+  margin-bottom: 48px; 
+}
+.Homehero .Herotext div button{
+  display: flex;
+  padding: 16px 56px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 41px;
+  background: #FCD980;
+  color: #1B1C2B;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  margin-right: 40px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+.Homehero .Herotext div span a{
+  color: var(--White);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; 
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+.Homehero .illustration img{
+  width: 100%;
+  height: 100%;
+}

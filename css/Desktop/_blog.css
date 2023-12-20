@@ -19,7 +19,7 @@
 .bigDiv .blog .blogCards {
   width: 100%;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   column-gap: 32px;
 }
 .bigDiv .blog .blogCards .blogCardItem {

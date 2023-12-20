@@ -3,7 +3,7 @@
   /* height: 984px; */
   flex-shrink: 0;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
   background-color: var(--White);
@@ -16,10 +16,11 @@
 .ourWorkMain .ourWork .header {
   width: 100%;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   align-items: center;
   justify-content: flex-start;
-  column-gap: 690px;
+  /* column-gap: 690px; */
+  column-gap: calc(100% / calc(1200 / 690));
   margin-bottom: 64px;
 }
 .ourWorkMain .ourWork .header h2 {
@@ -32,7 +33,7 @@
 }
 .ourWorkMain .ourWork .header div {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
   column-gap: 16px;
@@ -50,11 +51,12 @@
 .ourWorkMain .ourWork .cardOurWork {
   width: 100%;
   display: flex;
-  flex-flow: row wrap;
-  column-gap: 32px;
+  flex-flow: row nowrap;
+  /* column-gap: 32px; */
+  column-gap: calc(100% / calc(1200 / 32));
 }
 .ourWorkMain .ourWork .cardOurWork .card2 {
-  width: 405px;
+  /* width: 405px; */
   flex-shrink: 0;
   display: flex;
   flex-flow: column nowrap;
@@ -65,9 +67,12 @@
 .ourWorkMain .ourWork .cardOurWork .card2 .subCard1 {
   position: relative;
   flex-shrink: 0;
+  overflow: hidden;
 }
 .ourWorkMain .ourWork .cardOurWork .card2 .subCard2 {
   flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
 }
 .cardHover {
   width: 100%;
@@ -92,14 +97,18 @@
   opacity: 1;
   transform: translateX(100%);
 }
-.cardHover .object1 {
+.ourWorkMain .ourWork .cardOurWork .card2 .subCard2:hover .cardHover {
+  opacity: 1;
+  transform: translateX(100%);
+}
+.cardHover.object1 {
   width: 77.28%;
   justify-content: left;
 }
 .cardHover .object2 {
   width: 77.28%;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   align-items: center;
   justify-content: flex-start;
   column-gap: 16px;

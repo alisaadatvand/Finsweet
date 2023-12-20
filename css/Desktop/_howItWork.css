@@ -4,23 +4,23 @@
     flex-shrink: 0;
     background-color: var(--Grey);
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: center;
-    column-gap: 142px;
+    column-gap: calc(100% / calc(1200 / 142));
     padding: 128px 232px 129px 165px  ;
 }
 .howItWork .headingHowitWork{
     width: 33.666%;
     flex-shrink: 0;
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     row-gap: 16px;
 }
 
 .howItWork .headingHowitWork div{
     width: 60.24%;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: flex-start;
     align-items: center;
     column-gap: 16px;

@@ -27,6 +27,9 @@
     margin-top: 32px;
     margin-bottom: 56px;
 }
+.blogBody .blogBodyImg img{
+  width: 100%;
+}
 .blogBody .blogBodyItem{
     width: 100%;
     display: flex;
