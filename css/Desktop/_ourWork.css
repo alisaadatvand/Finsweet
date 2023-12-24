@@ -55,6 +55,35 @@
   /* column-gap: 32px; */
   column-gap: calc(100% / calc(1200 / 32));
 }
+
+.ourWorkMain .ourWork .cardOurWork .card1 {
+  position: relative;
+  overflow: hidden;
+}
+.cardHover2 {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  position: absolute;
+  background: linear-gradient(
+    329deg,
+    #1c1e53 -10.96%,
+    rgba(28, 30, 83, 0.42) 103.96%
+  );
+  right: 100%;
+  top: 0;
+  opacity: 1;
+  transition: 1000ms;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  padding: 312px 268px 76px 268px;
+}
+.ourWorkMain .ourWork .cardOurWork .card1:hover .cardHover2 {
+  opacity: 1;
+  transform: translateX(100%);
+}
+
 .ourWorkMain .ourWork .cardOurWork .card2 {
   /* width: 405px; */
   flex-shrink: 0;
@@ -89,7 +118,6 @@
   transition: 1000ms;
   display: flex;
   flex-flow: column nowrap;
-  align-items: center;
   justify-content: flex-start;
   padding: 129px 36px 39px 56px;
 }
@@ -122,7 +150,7 @@
   line-height: 36px;
 }
 
-.cardHover .object2 span a {
+.cardHover  .object2 span a {
   color: var(--Yellow);
   font-family: Poppins;
   font-size: 16px;
@@ -130,4 +158,32 @@
   font-weight: 500;
   line-height: 28px;
   text-decoration: none;
+}
+
+.cardHover2 .object1 p {
+  color: var(--White);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+ .cardHover2 .object2 span a {
+  color: var(--Yellow);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  text-decoration: none;
+}
+.cardHover2 .object3 p {
+  color: var(--White);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; 
+  opacity: 0.8;
 }

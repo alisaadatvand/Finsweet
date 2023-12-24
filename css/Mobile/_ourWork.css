@@ -88,7 +88,6 @@
   transition: 1000ms;
   display: flex;
   flex-flow: column nowrap;
-  align-items: center;
   justify-content: flex-start;
   padding: 129px 36px 39px 56px;
 }
