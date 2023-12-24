@@ -1,7 +1,7 @@
 
-# Digikala
+# Finsweet
 
-First page of digikala
+Finsweet website design project with Figma and Responsive in both Desktop and Mobile sizes 💻
 
 
 ## Online link
