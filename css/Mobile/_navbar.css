@@ -1,7 +1,7 @@
 
 label[for=menu]{
   height: 35px;
-  width: 35px;
+  width: 40px;
   display: inline-block;
   background-color: var(--navbar);
   position: relative;
@@ -15,7 +15,7 @@ label[for=menu]{
 }
 label[for=menu]>div{
   width: 80%;
-  height: 3px;
+  height: 2px;
   background-color: white;
   position: absolute;
   left: calc(50% - 80% / 2);
@@ -40,7 +40,9 @@ label[for=menu]>div{
 #menu:checked ~ div.navbar{
   display: block;
 } 
-
+#menu:checked ~ label[for=menu]{
+  display: none;
+}
 label[for=closetest]{
   background-color: rgb(160, 10, 40);
   font-size: 16px;

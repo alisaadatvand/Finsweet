@@ -57,6 +57,9 @@
   text-decoration: none;
   margin-bottom: 20px;
 }
+.Homehero .Herotext div a{
+  text-decoration: none;
+}
 .Homehero .Herotext div span a{
   color: var(--White);
   font-family: Poppins;
